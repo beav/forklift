@@ -13,8 +13,8 @@
       --enable-foreman-proxy-plugin-openscap
       --enable-foreman-proxy-plugin-remote-execution-ssh
   roles:
-    - etc_hosts
     - common
+    - etc_hosts
     - foreman_repositories
     - katello_repositories
     - katello

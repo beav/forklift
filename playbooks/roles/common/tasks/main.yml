@@ -1,3 +1,5 @@
 ---
 - include: repositories.yml
   become: true
+- include: ansible_deps.yml
+  become: true
