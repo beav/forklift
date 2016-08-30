@@ -1,0 +1,3 @@
+---
+- name: libselinux-python is needed for ansible to manage files on boxes with selinux enabled
+  yum: name=libselinux-python state=present
